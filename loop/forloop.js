@@ -62,21 +62,21 @@
 // }
 // }
 
-// // 6. // fuct of n natural no.
+// 6. // fuct of n natural no.
 
-// let n = 4
+let n = 5
 
-// if(isNaN(n)){
-//     console.log("invalid varibal")
-// }
-// else{ if (n > 0){
-//     var fuct = 2
-//     for(var i = 1 ; i <= n; i++){
-//         fuct *= i
-//     }
-//     console.log(fuct)
-// }
-// else{
-//     console.log("no postive nahi hai")
-// }
-// }
+if(isNaN(n)){
+    console.log("invalid varibal")
+}
+else{ if (n > 0){
+    var fuct = 1
+    for(var i = 1 ; i <= n; i++){
+        fuct *= i
+    }
+    console.log(fuct)
+}
+else{
+    console.log("no postive nahi hai")
+}
+}
