@@ -64,17 +64,36 @@
 
 // 6. // fuct of n natural no.
 
-let n = 5
+// let n = 5
+
+// if(isNaN(n)){
+//     console.log("invalid varibal")
+// }
+// else{ if (n > 0){
+//     var fuct = 1
+//     for(var i = 1 ; i <= n; i++){
+//         fuct *= i
+//     }
+//     console.log(fuct)
+// }
+// else{
+//     console.log("no postive nahi hai")
+// }
+// }
+
+// 6. // factor or number
+
+let n = 10
 
 if(isNaN(n)){
     console.log("invalid varibal")
 }
 else{ if (n > 0){
-    var fuct = 1
-    for(var i = 1 ; i <= n; i++){
-        fuct *= i
+    for(let i = 0; i <= n; i++){
+        if(n%i === 0){
+            console.log(i)
+        }
     }
-    console.log(fuct)
 }
 else{
     console.log("no postive nahi hai")
