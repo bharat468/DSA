@@ -104,24 +104,32 @@
 
 // 7. // Prime No
 
-let n = 7
+// let n = 7
 
-if(isNaN(n)){
-    console.log("invalid varibal")
-}
-else{ if (n > 0){
-    var primeNo = true
-     for (var i = 2 ; i<= Math.floor(n/2); i++){
-        if(n% i === 0){
-          primeNo = false
-          break
-        }
-    }
-    console.log(primeNo)
-}
-else{
-    console.log("no postive nahi hai")
-}
-}
+// if(isNaN(n)){
+//     console.log("invalid varibal")
+// }
+// else{ if (n > 0){
+//     var primeNo = true
+//      for (var i = 2 ; i<= Math.floor(n/2); i++){
+//         if(n% i === 0){
+//           primeNo = false
+//           break
+//         }
+//     }
+//     console.log(primeNo)
+// }
+// else{
+//     console.log("no postive nahi hai")
+// }
+// }
+
+
+// 7. // Break anc continue 
+
+// for(let i = 1; i <= 25; i++){
+//     if(i===11) break
+//     else console.log(i)
+// }
 
 
