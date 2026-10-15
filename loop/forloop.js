@@ -133,3 +133,7 @@
 // }
 
 
+// for(let i = 1; i <= 25; i++){
+//     if(i===11) continue
+//     else console.log(i)
+// }
